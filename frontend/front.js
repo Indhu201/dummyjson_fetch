@@ -59,50 +59,7 @@ getByIdForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const formData = e.target[0].value;
 
-  fetch(`https://dummyjson-fetch.onrender.com
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /products/${formData}`)
+  fetch(`https://dummyjson-fetch.onrender.com/products/${formData}`)
     .then(res => res.json())
     .then(data => {
        // Clear previous product
