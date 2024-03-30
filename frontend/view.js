@@ -5,7 +5,7 @@ const urlParams = new URLSearchParams(window.location.search);
     // Function to fetch product details based on id
     async function fetchDetails(id) {
       try {
-        const response = await fetch(`http://localhost:3000/products/${id}`);
+        const response = await fetch(`https://dummyjson-fetch.onrender.com/products/${id}`);
         if (!response.ok) {
           throw new Error('Failed to fetch product');
         }

@@ -2,7 +2,7 @@ const button = document.getElementById('button')
 const productContainer = document.getElementById('productContainer')
 
 button.addEventListener("click", (e) => {
-  fetch(`http://localhost:3000/products`)
+  fetch(`https://dummyjson-fetch.onrender.com/products`)
     .then(res => res.json())
     .then(data => generateUI(data))
 })
@@ -59,7 +59,50 @@ getByIdForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const formData = e.target[0].value;
 
-  fetch(`http://localhost:3000/products/${formData}`)
+  fetch(`https://dummyjson-fetch.onrender.com
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /products/${formData}`)
     .then(res => res.json())
     .then(data => {
        // Clear previous product
